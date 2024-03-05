@@ -60,12 +60,6 @@ p {
 
 .sectionb-li {
   width: calc((100% - 72px) / 4);
-  /*
-  width: calc((100% - 72px) / 4); nie validuje
-  width: calc((100% - 3 * 24px) / 4); nie waliduje
-  flex-basis: calc((100% - 3 * 24px) / 4); nie waliduje
-  flex-basis: calc((100% - 72px) / 4); nie validuje
-*/
 }
 
 .nav-a {
@@ -92,6 +86,11 @@ p {
   text-decoration: none;
   list-style-type: none;
   padding: 24px 0;
+
+  /*24.03.05*/
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-li-a:hover {
   font-weight: 500;
@@ -109,6 +108,9 @@ p {
 }
 .body-header {
   border-bottom: 1px solid #e7e9fc;
+  /*24.03.05*/
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-div {
@@ -137,6 +139,8 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+  /*24.03.05*/
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-adress-mail:hover {
   font-size: 16px;
@@ -283,22 +287,10 @@ p {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
-  /*
-  width: calc((100% - 72px) / 4); nie validuje
-  width: calc((100% - 3 * 24px) / 4); nie validuje
-  flex-basis: calc((100% - 3 * 24px) / 4); nie validuje
-  flex-basis: calc((100% - 72px) / 4); nie validuje
-  */
 }
 
 .sectiond-li {
   width: calc((100% - 48px) / 3);
-  /*
-  width: calc((100% - 48px) / 3); nie validuje
-  width: calc((100% - 2 * 24px) / 3); nie validuje
-  flex-basis: calc((100% - 2 * 24px) / 3); nie validuje
-  flex-basis: calc((100% - 48px) / 3);
-  */
 }
 
 .sectionc-name {
