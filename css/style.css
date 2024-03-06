@@ -191,7 +191,7 @@ p {
   padding: 188px 0;
 
   /*24.03.05*/
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
@@ -199,7 +199,7 @@ p {
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 }
 .main-sectionb {
   padding: 120px 0;
